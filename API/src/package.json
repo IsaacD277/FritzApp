@@ -1,0 +1,28 @@
+{
+  "name": "Fritz",
+  "version": "1.0.0",
+  "description": "",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/IsaacD277/fritzApp.git"
+  },
+  "keywords": [],
+  "author": "",
+  "license": "ISC",
+  "type": "commonjs",
+  "bugs": {
+    "url": "https://github.com/IsaacD277/fritzApp/issues"
+  },
+  "homepage": "https://github.com/IsaacD277/fritzApp#readme",
+  "dependencies": {
+    "ajv": "^8.18.0",
+    "express": "^5.2.1",
+    "jsonwebtoken": "^9.0.3",
+    "sequelize": "^6.37.8",
+    "sqlite3": "^6.0.1"
+  }
+}

@@ -1,0 +1,3 @@
+API/src/node_modules/*
+.DS_Store
+fritzapp.db
