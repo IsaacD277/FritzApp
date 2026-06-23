@@ -6,7 +6,7 @@ jobs:
   test-node:
     # Install node dependencies and run tests
     executor: node/default
-    working_directory: ~/project/API/src
+    working_directory: ~/project/API
     steps:      
       - checkout:
           path: ~/project
