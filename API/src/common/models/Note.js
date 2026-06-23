@@ -6,7 +6,7 @@ const NoteModel = {
         autoIncrement: true, 
         primaryKey: true 
     },
-    userId: { type: DataTypes.STRING },
+    userId: { type: DataTypes.INTEGER },
     description: { type: DataTypes.STRING, allowNull: true },
     timeRidden: { type: DataTypes.INTEGER, allowNull: true },
     createdAt: { type: DataTypes.DATE, allowNull: false },
